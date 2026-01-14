@@ -24,11 +24,15 @@
       box-shadow: 0 8px 20px rgba(0,0,0,0.15);
     }
     .card-img-top {
-      height: 220px; 
-      object-fit: cover; 
-      border-top-left-radius: 15px; 
-      border-top-right-radius: 15px;
-    }
+  height: 260px;              /* increase height for clarity */
+  width: 100%;
+  object-fit: contain;        /* show FULL image */
+  background-color: #f8f9fa;  /* clean background */
+  padding: 10px;              /* space around image */
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
     .card-body { padding: 20px; }
     .card-title { font-weight: 600; font-size: 1.2rem; }
     .card-text, .card-body p { font-size: 0.95rem; color: #555; }
@@ -38,6 +42,8 @@
       font-size: 2rem;
       font-weight: 700;
     }
+
+    
 
     /* Footer */
     .footer { background-color: #1c7c54; color: white; text-align: center; padding: 20px; margin-top: 40px; }
@@ -81,7 +87,7 @@
 
     <div class="col-md-6 col-lg-4">
       <div class="card shadow h-100">
-        <img src="./images/JUMBO.jpg" class="card-img-top" alt="Jumbo E Selenium">
+        <img src="./images/JUMBO.jpg"  class="card-img-top" alt="Jumbo E Selenium" >
         <div class="card-body text-center">
           <h5 class="card-title text-success">Jumbo E Selenium 20%</h5>
           <p>Rich in Selenium & Vitamin E for improved animal nutrition and health.</p>
